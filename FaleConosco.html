@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Fotos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/devaria.css">
+    <link rel="stylesheet" href="style/FaleConosco.css">
+    <link rel="stylesheet" href="style/professores.css">
+    <title>Fale Conosco</title>
+
+</head>
+<body>
+    <header>
+        <a href="index.html" class="link-logo">
+            <img src="Fotos/logo-devaria.svg" alt="Logo Devaria">
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="Professores.html">Professores</a></li>
+                <li><a href="FaleConosco.html">FaleConosco</a></li>
+                <li><a href="DevStars.html">DevStars</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title text-center ">Fale com a devaria atraves dessa pagina</h1>
+        <h2 class="sub-title text-center">Para entrar em contato preencha os campos abaixo e clique em enviar</h2>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="Nome" maxlength="70">
+            </div>
+            <div>
+                <label>E-mail:</label>
+                <input type="text" name="Email" maxlength="150">
+            </div>
+            <div>
+                <label>Comentários:</label>
+                <textarea name="comentario" cols="50" rows="4" maxlength="300"></textarea>
+            </div>
+            <div>
+                <label>Sexo</label>
+                <input type="radio" name="Sexo"><span>Feminino</span>
+                <input type="radio" name="Sexo"><span> Masculino</span>
+            </div>
+            <div>
+                <label>Aonde voce conheceu a Devaria?</label>
+                <select name="Conheceu">
+                    <option selected>Youtube</option>
+                span
+                ion>Amigos</option>
+                    <option>Google</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="Aceite" value="Aceite">
+                <span
+                >Aceito receber novidades da Devaria</span
+                    >
+            </div>
+            <div>
+                <input type="submit" name="Enviar" value="Enviar">
+                <input type="reset" name="Limpar" value="Limpar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <section>
+            <span>contato@devaria.com.br</span>
+            <br>
+            <span>Conheça o nosso canal do Youtube</span>
+        </section>
+    </footer>
+</body>
+</html>

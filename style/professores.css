@@ -1,0 +1,25 @@
+/*Estilos para a pag professores*/
+.content-container{
+    padding: 20px;
+
+}
+.content-container > figure img{
+    width: 100%;
+    border-radius: 20px;
+    border: 5px double #25cbd3;
+}
+.content-container h2.title {
+    font-size: 1.4em;
+}
+
+strong {
+    color: #3bd42d;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container article p {
+        margin: 0px auto 15px;
+    }
+    
+}
+
